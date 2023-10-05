@@ -1,7 +1,7 @@
 # Logic explanation
 
-- The computer chooses a secret word.
-- The player tries to guess the secret word by guessing one letter at a time.
-- If the player guesses a letter correctly, the letter is revealed on the game board.
-- If the player guesses a letter incorrectly, a part of the hangman is drawn.
-- The game ends when the player guesses all the letters correctly or when the hangman is complete.
+1. The computer chooses a secret word.
+2. The player tries to guess the secret word by guessing one letter at a time.
+3. If the player guesses a letter correctly, the letter is revealed on the game board.
+4. A part of the hangman is drawn if the player guesses a letter incorrectly.
+5. The game ends when the player correctly guesses all the letters or the hangman is complete.
